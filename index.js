@@ -70,7 +70,7 @@ app.delete('/user/:id', function (req, res) {
     res.send('User deleted successfully');
 })
 
-app.listen(1000, function () {
-    console.log("Server is running in port http://localhost:1000");
+app.listen(2000, function () {
+    console.log("Server is running in port http://localhost:2000");
 })
 
